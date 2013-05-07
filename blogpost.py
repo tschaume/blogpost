@@ -381,7 +381,7 @@ class Blogpost(object):
         # Check with your hoster if you get an 'Invalid file type' error.
         media_exts = (
             'gif','jpg','jpeg','png',
-            'pdf','doc','odt',
+            'pdf','doc','odt','txt',
             'mp3','ogg','wav','m4a','mov','wmv','avi','mpg',
         )
         result = StringIO.StringIO()
